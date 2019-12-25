@@ -1,0 +1,7 @@
+Base path: '/Applications/Unity/Hub/Editor/2019.2.8f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.2.8f1/Unity.app/Contents/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 1 plat 14 at RayTracingShader.compute(133): use of potentially uninitialized variable (Shade)
+  api=14 insize=4618 outsize=6111 ok=1
+
+Quitting shader compiler process

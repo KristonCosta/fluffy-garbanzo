@@ -1,0 +1,10 @@
+Base path: '/Applications/Unity/Hub/Editor/2019.2.8f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.2.8f1/Unity.app/Contents/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: translateComputeKernel
+  error: 1 plat 21 at (0): Metal shading language does not support buffer size query from shader. Pass the size to shader as const instead.
+
+  api=14 insize=5978 outsize=10800 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=7455 outsize=13742 ok=1
+
+Quitting shader compiler process

@@ -1,0 +1,31 @@
+Base path: '/Applications/Unity/Hub/Editor/2019.2.8f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.2.8f1/Unity.app/Contents/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: translateComputeKernel
+  error: 1 plat 21 at (0): Metal shading language does not support buffer size query from shader. Pass the size to shader as const instead.
+
+  api=14 insize=6074 outsize=10800 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at RayTracingShader.compute(141): use of potentially uninitialized variable (Shade)
+  api=14 insize=4928 outsize=5750 ok=1
+Cmd: translateComputeKernel
+  error: 1 plat 21 at (0): Metal shading language does not support buffer size query from shader. Pass the size to shader as const instead.
+
+  api=14 insize=5750 outsize=9739 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at RayTracingShader.compute(119): loop only executes for 1 iteration(s), forcing loop to unroll
+  error: 1 plat 14 at RayTracingShader.compute(141): use of potentially uninitialized variable (Shade)
+  api=14 insize=4919 outsize=5286 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=5286 outsize=9165 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at RayTracingShader.compute(120): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 14 at RayTracingShader.compute(142): use of potentially uninitialized variable (Shade)
+  api=14 insize=4953 outsize=6143 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=6143 outsize=10822 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=6143 outsize=10822 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=6259 outsize=11228 ok=1
+
+Quitting shader compiler process
